@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 CAMPAIGN</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header img {
+          display: block;
+          margin: 0 auto;
+          width: 10%; 
+        }
+    
+        img + img { 
+          margin-top: 80px;
+        }
+
+body{background-color: #e0fbfc;}
+  
+  h1{color: rgb(184, 186, 193);}
+  form {
+  background-color: #98c1d9; 
+  padding: 30px;
+}
+h1 {
+border: 5px ;
+background: #3d5a80;
+  border-radius: 10px; 
+  padding: 10px; /
+      }
+
+      header {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+header p {
+  margin: 0 auto;
+  width: 70%;
+}
+
+      </style>
+  
+
+</head>
+<body>
+    <header>
+        
+          <img src="logo uia.png" alt="UIA" />
+          <img src="rm1.png" alt="RM1" />
+          <h1>RM1 CAMPAIGN</h1>
+          <br>
+          <p><strong>Let your contributions be perpetual for the pleasure of Allah SWT.<br></strong></p>
+          <p style="font-style:italic;">The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing. Al Baqarah: 261
+          </p>
+
+      </header>
+      
+      
+      
+
+        
+        <form>
+<fieldset>              <legend>PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</legend>
+                <div>
+
+                    Director<br>
+                    IIUM Endowment Fund Level 3, Rectory Building International Islamic University Malaysia
+
+                    <br><br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="staff_no">Staff No:</label>
+                    <input type="text" id="staff_no" name="staff_no" required>
+                    <br><br>
+
+                    <label for="kcdi">K/C/D/I/O:</label>
+                    <input type="text" id="kcdi" name="kcdi" required>
+                    <br><br>
+
+                    <label for="contact_no">Contact No:</label>
+                    <input type="tel" id="contact_no" name="contact_no" required>
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="amount">Amount to be Deducted:</label>
+                    <input type="number" id="amount" name="amount" required>
+                    <br><br>
+
+                    The above salary deduction will take effect from 
+                    <input type="month" id="start_month" name="month" required> 
+                    until 
+                    <input type="month" id="end_month" name="month" required> 
+                    <br><br>
+
+                    <label for="signature">Signature:</label>
+                    <br>
+                    <br>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required> 
+                    <br>
+                    <br>
+
+                    <label for="kulliyyah-checkbox">For kulliyyah based only</label> <input type="checkbox" id="kulliyyah-checkbox">
+                    <br><br>
+                    <div id="kulliyyah-field" style="display: none;">
+                    <label for="kulliyyah">Kulliyyah:</label>
+                    <input type="text" id="kulliyyah" name="kulliyyah" required>
+                </div>
+
+
+
+     <input type="submit" value="Submit">
+
+                
+                
+            </div>
+
+
+        </fieldset>  
+
+        </form>
+
+        <h3>Contact us</h3>
+
+
+        <p style="text-align: center;">
+            IIUM ENDOWMENT FUND<br>
+            Level 3, Rectory<br>
+            International Islamic University Malaysia<br>
+            P.O. Box 10 50728 Kuala Lumpur<br>
+            Tel: 03 6196 4268<br>
+            Email: ief@iium.edu.my<br>
+            Website: www.lium.edu.my/ief<br>
+            Facebook: www.facebook.com/ief.official/<br>
+          </p>
+          <script>
+            const kulliyyahCheckbox = document.getElementById('kulliyyah-checkbox');
+            const kulliyyahField = document.getElementById('kulliyyah-field');
+          
+            kulliyyahCheckbox.addEventListener('change', function () {
+              if (this.checked) {
+                kulliyyahField.style.display = 'block';
+              } else {
+                kulliyyahField.style.display = 'none';
+              }
+            });
+          </script>
+</body>
+</html>
+
+ 
